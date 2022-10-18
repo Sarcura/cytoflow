@@ -33,8 +33,4 @@ dependencies:
     
     # only install mkl libraries on windows, where they're required
     - nomkl # [not win]
-
-    # - {{compiler('cxx')}}
-    - sphinx==4.2.0
-    - bleach==3.3.0
-    - swig==4.0.2
+    
